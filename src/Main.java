@@ -53,7 +53,7 @@ class Solution {
 
     Map, want to add prereq as a key and create an arrayList which contains the intended course. the arrayList becomes the value. if the prereq already exists as a key, then rerieve key and add the
         new intended course. such as if we have [1,3], [2,3]. 3 is added as key with arrayList of [1]. 3 already exists for other so just revise so 3 key has [1,2]. stores all the courses for which
-        it is a prereq
+        it is a prereq.
 
         * at this point, all desired classes have number of their prereqs listed and all prereqs have an arrayList showing which classes it is a prereq for
 
